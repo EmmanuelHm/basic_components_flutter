@@ -7,7 +7,8 @@ class FlexibleWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return //Row
+        Column(
       children: [
         Flexible(
             //Espacio que va a ocupar el widget
