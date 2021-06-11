@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'BasicWidgets/Container/Container.dart';
+import 'package:basic_components_flutter/BasicWidgets/3.Column/Column.dart';
 
 void main() => runApp(MyApp());
 
