@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/3.Column/Column.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,6 +22,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return SafeArea(
+      child: Scaffold(),
+    );
   }
 }
