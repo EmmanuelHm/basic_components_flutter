@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:basic_components_flutter/BasicWidgets/8.Card/Card.dart';
+import 'package:basic_components_flutter/BasicWidgets/9.ListView/ListView.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +24,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(appBar: AppBar(), body: CardWidget()),
+      child: Scaffold(
+          appBar: AppBar(
+            title: Text('Componentes Básicos Flutter'),
+          ),
+          body: ListViewWidget()),
     );
   }
 }
