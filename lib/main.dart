@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'BasicWidgets/5.Flexible/Flexible.dart';
+import 'BasicWidgets/7.ListTile/ListTile.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,9 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
-        body: FlexibleWidget(),
-      ),
+      child: Scaffold(appBar: AppBar(), body: ListTileWidget()),
     );
   }
 }
