@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'BasicWidgets/7.ListTile/ListTile.dart';
+import 'package:basic_components_flutter/BasicWidgets/8.Card/Card.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(appBar: AppBar(), body: ListTileWidget()),
+      child: Scaffold(appBar: AppBar(), body: CardWidget()),
     );
   }
 }
