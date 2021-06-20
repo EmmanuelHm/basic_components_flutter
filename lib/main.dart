@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/9.ListView/ListView.dart';
+import 'package:basic_components_flutter/BasicWidgets/10.GridView/GridView.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
           appBar: AppBar(
             title: Text('Componentes Básicos Flutter'),
           ),
-          body: ListViewWidget()),
+          body: GridViewWidget()),
     );
   }
 }
