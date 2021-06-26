@@ -1,5 +1,5 @@
+import 'package:basic_components_flutter/BasicWidgets/16.ImageIcon/ImageIcon.dart';
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/15.RecursosAssets/Recursos.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'recursos',
+      initialRoute: 'image-icon',
       routes: {
         // 'text': (context) => WidgetTexto(),
-        'recursos': (context) => Recursos(),
+        // 'recursos': (context) => Recursos(),
+        'image-icon': (context) => ImagenesIcons()
       },
     );
   }
