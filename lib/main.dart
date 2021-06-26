@@ -1,5 +1,5 @@
+import 'package:basic_components_flutter/BasicWidgets/14.Texto/Texto.dart';
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/13.ReturnData/ScreenReturn.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'resDat',
-      routes: {'resDat': (context) => ScreenReturn()},
+      initialRoute: 'text',
+      routes: {'text': (context) => WidgetTexto()},
     );
   }
 }
