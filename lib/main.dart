@@ -1,5 +1,5 @@
-import 'package:basic_components_flutter/BasicWidgets/14.Texto/Texto.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_components_flutter/BasicWidgets/15.RecursosAssets/Recursos.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,8 +15,11 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'text',
-      routes: {'text': (context) => WidgetTexto()},
+      initialRoute: 'recursos',
+      routes: {
+        // 'text': (context) => WidgetTexto(),
+        'recursos': (context) => Recursos(),
+      },
     );
   }
 }
