@@ -1,5 +1,5 @@
-import 'package:basic_components_flutter/BasicWidgets/16.ImageIcon/ImageIcon.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_components_flutter/BasicWidgets/17.AppBar/Appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
-        'image-icon': (context) => ImagenesIcons()
+        'image-icon': (context) => WidgetAppbar()
       },
     );
   }
