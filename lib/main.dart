@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/17.AppBar/Appbar.dart';
+import 'package:basic_components_flutter/BasicWidgets/18.BottonNavigatorBar/BottomNavBar.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,11 +15,12 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'image-icon',
+      initialRoute: 'btn-navbar',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
-        'image-icon': (context) => WidgetAppbar()
+        // 'appbar': (context) => WidgetAppbar(),
+        'btn-navbar': (context) => BottomNavBar()
       },
     );
   }
