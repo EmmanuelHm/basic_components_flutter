@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/18.BottonNavigatorBar/BottomNavBar.dart';
+import 'package:basic_components_flutter/BasicWidgets/19.TabBar/Tabbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,12 +15,13 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'btn-navbar',
+      initialRoute: 'tabbar',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
         // 'appbar': (context) => WidgetAppbar(),
-        'btn-navbar': (context) => BottomNavBar()
+        // 'btn-navbar': (context) => BottomNavBar(),
+        'tabbar': (context) => TabBarWidget(),
       },
     );
   }
