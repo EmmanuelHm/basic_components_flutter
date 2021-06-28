@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/20.Drawer/Drawer.dart';
+import 'package:basic_components_flutter/BasicWidgets/21.Botones/Botones.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,14 +15,15 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'drawer',
+      initialRoute: 'botones',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
         // 'appbar': (context) => WidgetAppbar(),
         // 'btn-navbar': (context) => BottomNavBar(),
         // 'tabbar': (context) => TabBarWidget(),
-        'drawer': (context) => DrawerWidget(),
+        // 'drawer': (context) => DrawerWidget(),
+        'botones': (context) => Botones(),
       },
     );
   }
