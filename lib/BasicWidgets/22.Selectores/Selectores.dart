@@ -13,7 +13,6 @@ class _SelectoresState extends State<Selectores> {
   // 1. Crear variable que identifique el estado actual
   bool _isActive = false;
   bool _isActiveTile = false;
-  bool _isActiveRadio = false;
 
   Cars _opcion = Cars.ferrari;
 
