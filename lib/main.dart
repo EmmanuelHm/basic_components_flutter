@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/24.TextField/InputsTexto.dart';
+import 'package:basic_components_flutter/BasicWidgets/25.IndicadoresProgreso.dart/IndicadoresProgreso.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'textos',
+      initialRoute: 'progress',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
         // 'botones': (context) => Botones(),
         // 'selectores': (context) => Selectores(),
         // 'switch': (context) => SwitchWidget(),
-        'textos': (context) => InputsTexto()
+        // 'textos': (context) => InputsTexto(),
+        'progress': (context) => IndicadoresProgreso(),
       },
     );
   }
