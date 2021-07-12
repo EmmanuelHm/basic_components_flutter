@@ -33,6 +33,8 @@ class _InputsTextoState extends State<InputsTexto> {
                     _valueTexto = value;
                   });
                 },
+
+                // PARA QUE SE VAYAN VIENDO LOS CAMBIOS AL MOMENTO
                 // onChanged: (value) {
                 //   setState(() {
                 //     _valueTexto = value;
