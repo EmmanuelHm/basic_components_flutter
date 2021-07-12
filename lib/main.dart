@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/23.Switch/Switch.dart';
+import 'package:basic_components_flutter/BasicWidgets/24.TextField/InputsTexto.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'switch',
+      initialRoute: 'textos',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
         // 'drawer': (context) => DrawerWidget(),
         // 'botones': (context) => Botones(),
         // 'selectores': (context) => Selectores(),
-        'switch': (context) => SwitchWidget()
+        // 'switch': (context) => SwitchWidget(),
+        'textos': (context) => InputsTexto()
       },
     );
   }
