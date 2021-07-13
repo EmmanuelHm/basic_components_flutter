@@ -12,6 +12,7 @@ enum SelectorOptions { option1, option2, option3, option4 }
 class _DesplegablesState extends State<Desplegables> {
   // 1. Crear una variable donde indicara el valor actual de nuestro DropdownButton
   String dropdownCurrent = "Opcion 1";
+  //
   SelectorOptions? _selectorOptions;
   @override
   Widget build(BuildContext context) {
@@ -46,6 +47,8 @@ class _DesplegablesState extends State<Desplegables> {
                 });
               },
             ),
+
+            //
             PopupMenuButton<SelectorOptions>(
                 onSelected: (SelectorOptions result) {
                   setState(() {
