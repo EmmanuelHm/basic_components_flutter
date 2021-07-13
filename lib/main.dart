@@ -1,5 +1,5 @@
+import 'package:basic_components_flutter/AdvancedWidgets/01.Stack/StackWidget.dart';
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/BasicWidgets/25.IndicadoresProgreso.dart/IndicadoresProgreso.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'progress',
+      initialRoute: 'stack',
       routes: {
         // 'text': (context) => WidgetTexto(),
         // 'recursos': (context) => Recursos(),
@@ -27,7 +27,8 @@ class MyApp extends StatelessWidget {
         // 'selectores': (context) => Selectores(),
         // 'switch': (context) => SwitchWidget(),
         // 'textos': (context) => InputsTexto(),
-        'progress': (context) => IndicadoresProgreso(),
+        // 'progress': (context) => IndicadoresProgreso(),
+        'stack': (context) => StackWidget()
       },
     );
   }

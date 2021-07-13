@@ -1,4 +1,3 @@
-import 'package:basic_components_flutter/BasicWidgets/11.Navegacion/SecondPage.dart';
 import 'package:flutter/material.dart';
 
 class FirstPage extends StatelessWidget {
