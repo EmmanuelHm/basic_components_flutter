@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/02.Slider/SliderWidget.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/03.Dialog(Pop-up)/Dialog.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'slider',
+      initialRoute: 'dialog',
       routes: {
-        'slider': (context) => SliderWidget(),
+        'dialog': (context) => DialogWidget(),
       },
     );
   }
