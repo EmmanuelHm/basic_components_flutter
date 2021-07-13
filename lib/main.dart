@@ -1,5 +1,5 @@
-import 'package:basic_components_flutter/AdvancedWidgets/01.Stack/StackWidget.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/02.Slider/SliderWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,20 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'stack',
+      initialRoute: 'slider',
       routes: {
-        // 'text': (context) => WidgetTexto(),
-        // 'recursos': (context) => Recursos(),
-        // 'appbar': (context) => WidgetAppbar(),
-        // 'btn-navbar': (context) => BottomNavBar(),
-        // 'tabbar': (context) => TabBarWidget(),
-        // 'drawer': (context) => DrawerWidget(),
-        // 'botones': (context) => Botones(),
-        // 'selectores': (context) => Selectores(),
-        // 'switch': (context) => SwitchWidget(),
-        // 'textos': (context) => InputsTexto(),
-        // 'progress': (context) => IndicadoresProgreso(),
-        'stack': (context) => StackWidget()
+        'slider': (context) => SliderWidget(),
       },
     );
   }
