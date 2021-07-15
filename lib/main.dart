@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/05.FechaHora/FechaHora.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/06.ExpansionPanel/ExpansionPanelWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'fechahora',
+      initialRoute: 'expansion',
       routes: {
-        'fechahora': (context) => FechaHora(),
+        'expansion': (context) => ExpansionPanelWidget(),
       },
     );
   }
