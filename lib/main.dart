@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/04.BotonesDesplegables/Desplegables.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/05.FechaHora/FechaHora.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'desplegables',
+      initialRoute: 'fechahora',
       routes: {
-        'desplegables': (context) => Desplegables(),
+        'fechahora': (context) => FechaHora(),
       },
     );
   }
