@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/09.BottomSheet/DesplegableInferior.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/10.Chip(tag)/ChipTag.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'desplegable',
+      initialRoute: 'chip',
       routes: {
-        'desplegable': (context) => DesplegableInferior(),
+        'chip': (context) => ChipTag(),
       },
     );
   }
