@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/13.Divisor/Divisor.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/14.Stepper/Pasos.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'divisor',
+      initialRoute: 'pasos',
       routes: {
-        'divisor': (context) => Divisor(),
+        'pasos': (context) => Pasos(),
       },
     );
   }
