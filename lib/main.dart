@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/12.Toltip/TooltipWidget.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/13.Divisor/Divisor.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'tooltip',
+      initialRoute: 'divisor',
       routes: {
-        'tooltip': (context) => TooltipWidget(),
+        'divisor': (context) => Divisor(),
       },
     );
   }
