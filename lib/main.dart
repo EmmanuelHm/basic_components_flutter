@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/08.SilverApp/SilverApp.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/09.BottomSheet/DesplegableInferior.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'silver',
+      initialRoute: 'desplegable',
       routes: {
-        'silver': (context) => SilverAppWidget(),
+        'desplegable': (context) => DesplegableInferior(),
       },
     );
   }
