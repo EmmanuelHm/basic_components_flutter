@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/11.Tabla/Tabla.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/12.Toltip/TooltipWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'Tabla',
+      initialRoute: 'tooltip',
       routes: {
-        'Tabla': (context) => Tabla(),
+        'tooltip': (context) => TooltipWidget(),
       },
     );
   }
