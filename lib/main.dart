@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/10.Chip(tag)/ChipTag.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/11.Tabla/Tabla.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'chip',
+      initialRoute: 'Tabla',
       routes: {
-        'chip': (context) => ChipTag(),
+        'Tabla': (context) => Tabla(),
       },
     );
   }
