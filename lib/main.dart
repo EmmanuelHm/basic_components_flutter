@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_components_flutter/AdvancedWidgets/06.ExpansionPanel/ExpansionPanelWidget.dart';
+import 'package:basic_components_flutter/AdvancedWidgets/08.SilverApp/SilverApp.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       // home: BackData(),
 
       // Sistema de Rutas
-      initialRoute: 'expansion',
+      initialRoute: 'silver',
       routes: {
-        'expansion': (context) => ExpansionPanelWidget(),
+        'silver': (context) => SilverAppWidget(),
       },
     );
   }
